@@ -26,12 +26,12 @@ Thanks to [John Dyer](https://github.com/johndyer), creator of [MediaElement Pla
 
 ### Usage
     $('#player').mediaelementplayer({
-    features: ['playpause','current','progress','duration','markers'], //Adding the feature 'markers' enables this plugin
-    markerColor: '#FCD730', // Optional : Specify the color of the marker
-    markers:['4','16','20','25','35','40'], // Specify marker times in seconds 
-    markerCallback:function(media,time){ // Callback function invoked when a marker position is reached
-      /* Your Code */
-    }
+        features: ['playpause','current','progress','duration','markers'], //Adding the feature 'markers' enables this plugin
+        markerColor: '#FCD730', // Optional : Specify the color of the marker
+        markers:['4','16','20','25','35','40'], // Specify marker times in seconds 
+        markerCallback:function(media,time){ // Callback function invoked when a marker position is reached
+           /* Your Code */
+        }
     });
 
 # Testing
@@ -43,3 +43,8 @@ Thanks to [John Dyer](https://github.com/johndyer), creator of [MediaElement Pla
     Safari - MP4
     
 <code>* Note</code> Markers will appear only after Play in IE7 and IE8 due to the limitation in Flash Player.
+
+# Version History
+
+*1.0.0 (2013/01/14)*    
+&nbsp;&nbsp;&nbsp;Initial release
