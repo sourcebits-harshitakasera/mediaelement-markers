@@ -48,5 +48,10 @@ Thanks to [John Dyer](https://github.com/johndyer), creator of [MediaElement Pla
 
 # Version History
 
+*2.0.0 (2013/04/03)*    
+&nbsp;&nbsp;&nbsp;Added fullscreen support
+
 *1.0.0 (2013/01/14)*    
 &nbsp;&nbsp;&nbsp;Initial release
+
+

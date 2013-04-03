@@ -68,10 +68,10 @@
 
             for (i = 0; i < t.options.markers.length; ++i) {
                 if (Math.floor(t.options.markers[i]) <= t.media.duration && Math.floor(t.options.markers[i]) >= 0) {
-                    left = controls.find('.mejs-time-total').width() * Math.floor(t.options.markers[i]) / t.media.duration;
+                    left = 100 * Math.floor(t.options.markers[i]) / t.media.duration;
                     $(controls.find('.mejs-time-marker')[i]).css({
                         "width": "1px",
-                        "left": left,
+                        "left": left+"%",
                         "background": t.options.markerColor
                     });
                 }
